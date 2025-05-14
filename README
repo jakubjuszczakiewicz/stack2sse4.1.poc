@@ -1,0 +1,3 @@
+Simple PoC with replace local stack with MMX/SSE registers. This example contain C and ASM implementation of the same function. This function is main SHA512 hash function internals with calculate next part of data and accumulate it into structures.
+
+On my machine with CPU i7-4790 I got from few up to 15-16% speed with ASM code faster then C code.
